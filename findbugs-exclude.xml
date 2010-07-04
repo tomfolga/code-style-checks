@@ -1,0 +1,12 @@
+<FindBugsFilter>
+	<Match>
+		<Bug category="EXPERIMENTAL" />
+	</Match>
+	<Match>
+		<Bug category="MALICIOUS_CODE" />
+	</Match>
+	<!--Exclude warnings-->
+	<Match>
+		<Priority value="3" />
+	</Match>
+</FindBugsFilter>
